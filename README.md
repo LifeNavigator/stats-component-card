@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](.images/stats-component-screenshot.png)
+![Screenshot](./images/stats-component-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/LifeNavigator/stats-component-card)
+- Live Site URL: [Netlify lik](https://thirsty-lewin-7e328b.netlify.app)
 ### Built with
 
 - Semantic HTML5 markup
