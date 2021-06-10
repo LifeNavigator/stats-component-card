@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](.images/stats-component-screenshot)
+![Screenshot](.images/stats-component-screenshot.png)
 
 ### Links
 
