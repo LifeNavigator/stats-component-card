@@ -56,8 +56,9 @@ body {
     margin: 0 auto;
     max-width: 90%;
     font-size: 1rem;
+    border: 1px solid hsl(244, 38%, 16%);
     border-radius: 15px;
-    border-collapse: separate;
+    overflow: auto;
     display: flex;
     flex-direction: column;
 }
@@ -74,13 +75,14 @@ body {
 
 .card-image {
     max-height: 100%;
+    max-width: 100%;
     flex-basis: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: hsl(277, 64%, 41%);
-    opacity: 0.8;
+    background-color: hsl(277, 64%, 42%);
+    /* opacity: 0.95; */
 
 }
 
@@ -89,7 +91,8 @@ body {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
-    opacity: 0.7;
+    background-color: hsl(277, 64%, 42%);
+    opacity: 0.45;
 }
 
 /*-- card footer --*/
@@ -121,8 +124,18 @@ body {
         margin: 10vh;
     }
 
+    .card-image,
+    .card-content {
+        max-width: 50%;
+    }
+
     .card-footer {
         /* margin-top: 5em; */
         flex-direction: row;
+    }
+
+    .footer-block__middle {
+        margin-left: 1em;
+        margin-right: 1em;
     }
 }
